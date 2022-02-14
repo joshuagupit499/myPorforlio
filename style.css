@@ -12,11 +12,6 @@ h2{
 	letter-spacing: 2px;
 	font-size: 45px;
 }
-body{
-	background: url('image/back.jpg') no-repeat center;
-	background-size: cover;
-
-}
 .font-1{
 	font-family: 'Montserrat', sans-serif;
 }
@@ -69,16 +64,20 @@ body{
 /*Home Content*/
 .home
 	{	
-
+	background: url('image/back.jpg') no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
 	height: 100vh;
+	min-height: 720px;
 	display: flex;
 	position: relative;
 }
 .home .max-width .container{
-min-height: 700px;
+min-height: 500px;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: 	red;
 }
 
 .home .max-width .container .avatar{
