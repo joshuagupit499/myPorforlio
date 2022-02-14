@@ -67,17 +67,15 @@ h2{
 	background: url('image/back.jpg') no-repeat;
 	background-attachment: scroll;
 	background-size: cover;
-	height: 100vh;
-	min-height: 720px;
+	min-height: 100vh;
 	display: flex;
 	position: relative;
 }
 .home .max-width .container{
-min-height: 500px;
+
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: 	red;
 }
 
 .home .max-width .container .avatar{
@@ -103,7 +101,6 @@ background-color: 	red;
 	animation: 	fade 3s;
 }
 .home .max-width .container .home-content .cont2{
-	position: relative;
 	width: 100%;
 	display: flex;
 	align-items: center;
